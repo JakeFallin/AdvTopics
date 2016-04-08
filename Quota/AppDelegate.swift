@@ -9,14 +9,31 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate
+{
     var window: UIWindow?
 
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
+    {
         // Override point for customization after application launch.
-        return true
+        // Default values (in AppDelegate!)
+        
+        if (NSUserDefaults.standardUserDefaults().valueForKey("quotes") == nil)
+        {
+            let quotes:Array<Dictionary<String, String>> = Array<Dictionary<String, String>>();
+            
+            NSUserDefaults.standardUserDefaults().setValue(quotes, forKey: "quotes");
+            NSUserDefaults.standardUserDefaults().synchronize();
+        }
+        window = UIWindow(frame: UIScreen.mainScreen().bounds);
+        
+        let nav = UINavigationController(rootViewController: ViewController());
+        
+        window?.rootViewController = nav;
+        window?.backgroundColor = UIColor.whiteColor();
+        window?.makeKeyAndVisible();
+        
+        return true;
     }
 
     func applicationWillResignActive(application: UIApplication) {

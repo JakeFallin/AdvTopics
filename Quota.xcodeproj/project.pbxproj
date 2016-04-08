@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D23258D21C64E2A300DACD65 /* quota.png in Resources */ = {isa = PBXBuildFile; fileRef = D23258D11C64E2A300DACD65 /* quota.png */; };
+		D23258D41C64E39400DACD65 /* quoteImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D23258D31C64E39400DACD65 /* quoteImage.png */; };
+		D25642CB1C68ED120030B416 /* QuoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25642CA1C68ED120030B416 /* QuoteListViewController.swift */; };
 		D2B3F30A1C6381CB0009271F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B3F3091C6381CB0009271F /* AppDelegate.swift */; };
 		D2B3F30C1C6381CB0009271F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B3F30B1C6381CB0009271F /* ViewController.swift */; };
-		D2B3F30F1C6381CB0009271F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B3F30D1C6381CB0009271F /* Main.storyboard */; };
 		D2B3F3111C6381CB0009271F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B3F3101C6381CB0009271F /* Assets.xcassets */; };
 		D2B3F3141C6381CB0009271F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B3F3121C6381CB0009271F /* LaunchScreen.storyboard */; };
+		D2B3F31C1C638AB80009271F /* AddQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B3F31B1C638AB80009271F /* AddQuoteViewController.swift */; };
+		D2B79B391C7F35D7003B9B46 /* EditQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B79B381C7F35D7003B9B46 /* EditQuoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D23258D11C64E2A300DACD65 /* quota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quota.png; sourceTree = "<group>"; };
+		D23258D31C64E39400DACD65 /* quoteImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quoteImage.png; sourceTree = "<group>"; };
+		D25642CA1C68ED120030B416 /* QuoteListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteListViewController.swift; sourceTree = "<group>"; };
 		D2B3F3061C6381CB0009271F /* Quota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B3F3091C6381CB0009271F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2B3F30B1C6381CB0009271F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2B3F30E1C6381CB0009271F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2B3F30B1C6381CB0009271F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		D2B3F3101C6381CB0009271F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2B3F3131C6381CB0009271F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2B3F3151C6381CB0009271F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B3F31B1C638AB80009271F /* AddQuoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddQuoteViewController.swift; sourceTree = "<group>"; };
+		D2B79B381C7F35D7003B9B46 /* EditQuoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditQuoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +64,12 @@
 			children = (
 				D2B3F3091C6381CB0009271F /* AppDelegate.swift */,
 				D2B3F30B1C6381CB0009271F /* ViewController.swift */,
-				D2B3F30D1C6381CB0009271F /* Main.storyboard */,
+				D2B3F31B1C638AB80009271F /* AddQuoteViewController.swift */,
+				D25642CA1C68ED120030B416 /* QuoteListViewController.swift */,
+				D2B79B381C7F35D7003B9B46 /* EditQuoteViewController.swift */,
 				D2B3F3101C6381CB0009271F /* Assets.xcassets */,
+				D23258D31C64E39400DACD65 /* quoteImage.png */,
+				D23258D11C64E2A300DACD65 /* quota.png */,
 				D2B3F3121C6381CB0009271F /* LaunchScreen.storyboard */,
 				D2B3F3151C6381CB0009271F /* Info.plist */,
 			);
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					D2B3F3051C6381CB0009271F = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HT6AJ9794M;
 					};
 				};
 			};
@@ -124,7 +137,8 @@
 			files = (
 				D2B3F3141C6381CB0009271F /* LaunchScreen.storyboard in Resources */,
 				D2B3F3111C6381CB0009271F /* Assets.xcassets in Resources */,
-				D2B3F30F1C6381CB0009271F /* Main.storyboard in Resources */,
+				D23258D41C64E39400DACD65 /* quoteImage.png in Resources */,
+				D23258D21C64E2A300DACD65 /* quota.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B3F30C1C6381CB0009271F /* ViewController.swift in Sources */,
+				D2B79B391C7F35D7003B9B46 /* EditQuoteViewController.swift in Sources */,
+				D25642CB1C68ED120030B416 /* QuoteListViewController.swift in Sources */,
+				D2B3F31C1C638AB80009271F /* AddQuoteViewController.swift in Sources */,
 				D2B3F30A1C6381CB0009271F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +160,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D2B3F30D1C6381CB0009271F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2B3F30E1C6381CB0009271F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D2B3F3121C6381CB0009271F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -249,10 +258,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Quota/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.Quota;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +272,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Quota/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.Quota;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +301,7 @@
 				D2B3F31A1C6381CB0009271F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
