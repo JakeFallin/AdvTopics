@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Jake\Desktop\RhsApplication\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="C:\Users\Jake\Desktop\RhsApplication\app\build\intermediates\pre-dexed\debug\classes-c5b24a4baa1ae60d4920ef0de416a0339a59c0be.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jake\Desktop\RhsApplication\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cb86970df0f0f25f766d320b279c7858c1ca0003">
+        <dex dex="C:\Users\Jake\Desktop\RhsApplication\app\build\intermediates\pre-dexed\debug\classes-79e6c56ffa30366b3fc2638c187c72f7ee017d0f.jar" />
+    </item>
+
+</items>

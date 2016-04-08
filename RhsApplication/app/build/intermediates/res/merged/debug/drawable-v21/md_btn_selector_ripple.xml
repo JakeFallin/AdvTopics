@@ -1,0 +1,8 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@drawable/md_btn_shape" />
+
+</ripple><!-- From: file:/C:/Users/Jake/Desktop/RhsApplication/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.7/res/drawable-v21/md_btn_selector_ripple.xml -->
